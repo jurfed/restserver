@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="com.octavianonline.servlet:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>com.octavianonline.servlet</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="servlet.war">
+      <element id="artifact" artifact-name="com.octavianonline.servlet:war exploded" />
+    </root>
+  </artifact>
+</component>
